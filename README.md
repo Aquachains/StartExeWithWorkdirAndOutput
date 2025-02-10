@@ -4,4 +4,4 @@ StartExeWithWorkdirAndOutput.exe expects only the file path of an executable. Fo
 
 ## But why?
 
-I wanted to run a built executable from my simple [PangoC IDE](https://github.com/Aquachains/PangoC_Editor), but I couldn't find a way to call an .exe file with its working directory and simultaneously capture the output in [Godot](https://github.com/godotengine/godot).
+I wanted to run a executable from my simple [PangoC IDE](https://github.com/Aquachains/PangoC_Editor), but I couldn't find a way to call an .exe file with its working directory and simultaneously capture the output in [Godot](https://github.com/godotengine/godot).
