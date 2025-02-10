@@ -1,6 +1,6 @@
 ## Summary
 
-StartExeWithWorkdirAndOutput.exe expects only the file path of an executable. For example, if you call __StartExeWithWorkdirAndOutput.exe *C:\dev\test.exe*__, it will set "C:\dev" as the working directory and redirect the output of test.exe to your caller.
+StartExeWithWorkdirAndOutput.exe expects only the file path of an executable as argument. For example, if you call __StartExeWithWorkdirAndOutput.exe *C:\dev\test.exe*__, it will set "C:\dev" as the working directory and redirect the output of test.exe to your caller.
 
 ## But why?
 
