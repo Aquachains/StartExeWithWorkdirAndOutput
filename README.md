@@ -1,7 +1,7 @@
 ## Summary
 
-StartExeWithWorkdirAndOutput.exe expects only a filepath of an executable. If you call __StartExeWithWorkdirAndOutput.exe *C:\dev\test.exe*__ "C:\dev\" will be the working directory and you get the output of "test.exe" redirected to your caller.
+StartExeWithWorkdirAndOutput.exe expects only the file path of an executable. For example, if you call __StartExeWithWorkdirAndOutput.exe *C:\dev\test.exe*__, it will set "C:\dev" as the working directory and redirect the output of test.exe to your caller.
 
 ## But why?
 
-I wanted to call a builded executable from my simple [PangoC IDE](https://github.com/Aquachains/PangoC_Editor), but i could'nt find a way to call a exe with it's working directory and getting the output at the same time.
+I wanted to run a built executable from my simple [PangoC IDE](https://github.com/Aquachains/PangoC_Editor), but I couldn't find a way to call an .exe file with its working directory and simultaneously capture the output.
